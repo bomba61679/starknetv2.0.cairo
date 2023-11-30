@@ -1,14 +1,10 @@
-#[contract]
-mod HelloStarknet {
-    use starknet::get_caller_address;
-    use starknet::ContractAddress;
 
 #[contract]
 mod HelloStarknet {
     use starknet::get_caller_address;
     use starknet::ContractAddress;
 
-// deleate 
+// deleated
 
     #[event]
     fn Hello(from: ContractAddress, value: felt252) {}
