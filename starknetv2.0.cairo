@@ -15,6 +15,3 @@ mod HelloStarknet {
     }
 
 }
-    #[event]
-    fn Hello(from: ContractAddress, value: felt252) {}
-// 30.11
